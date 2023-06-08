@@ -1,0 +1,435 @@
+body {
+  background-color: #082B59;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+}
+
+.title{
+  margin-left: 150px;
+  
+}
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+ 
+}
+/* make images flexible */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  flex-basis: 30%;
+}
+a {
+  color: #59331d;
+}
+a:hover {
+  text-decoration: none;
+}
+header {
+  border-bottom: 10px solid #d98555;
+}
+/* navbar styling */
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+nav li {
+  margin: 0rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+/* max width on the image in pixels */
+nav .logo img {
+  max-width: 130px;
+}
+/* flex basis on the image container, li */
+nav .logo {
+  flex-basis: 100%;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  color: #d98555;
+}
+/* establishes a white background */
+.main-bkgd {
+  background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+  padding-bottom: 300px;
+  
+}
+/* sits inside of the white background, centered */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+article {
+  flex-basis: 73%;
+  
+}
+figure {
+  margin: 3rem 0 0 0;
+  flex-basis: 25%;
+  background-color: #59331d;
+  border-radius: 10px;
+}
+figure img {
+  border-radius: 10px;
+  
+}
+figcaption {
+  color: #f2f2f2;
+  padding: 0.5rem;
+}
+.button {
+  display: inline-block;
+  background-color: #59331D;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  color: #f2f2f2;
+  text-decoration: none;
+  border: 3px solid #59331d;
+}
+.button:hover {
+  background-color: #f2f2f2;
+  color: #59331d;
+}
+
+
+.address h1{
+  margin-left: 0px;
+}
+
+.address p{
+  margin-left: 20px;
+}
+
+.image{
+  max-width:500px;
+ 
+}
+footer {
+  color: #f2f2f2;
+  text-align: center;
+  border-top: 10px solid #d98555;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+footer a {
+  color: #f2f2f2;
+  font-size: 2rem;
+  display: block;
+  margin: 0 1rem 3rem 1rem;
+}
+
+.container{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  
+  padding: auto;
+  margin: auto;
+  width: 75%;
+  height:auto;
+}
+
+
+
+.card h2,
+.card p {
+  padding: 0rem 1rem 0rem rem;
+  margin: 0rem 1rem 0rem rem ;
+}
+
+
+
+
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  margin: 1rem 1rem 1rem 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+}
+ 
+h2{
+  font-size: 1.9rem;
+}
+
+
+
+
+ @media only screen and (max-width: 650px) 
+  {
+  
+   
+    nav ul {
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   display: block;
+   flex-flow: row wrap;
+   text-align: center;
+ }
+    .main {
+   max-width: 1000px;
+  
+   padding: 2rem;
+   display: block;
+   flex-flow: row wrap;
+      text-align: leftr;
+        margin-left: auto;
+   margin-right: auto;
+  
+ }
+    figure {
+   margin: 2rem 0 0 0;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   background: none;
+    
+ }
+   figure img {  border-radius: 10px;
+
+   
+   }
+   
+    
+    figcaption {
+   color: #f2f2f2;
+   padding: 0.5rem;
+      display: none;
+ }
+   
+   
+   h1 {
+   font-size: 2rem;
+   margin-bottom: 0;
+ }
+    
+    body {
+  
+   margin: 0;
+   padding: 0;
+ 
+   line-height: 2.5;
+ }
+    
+    
+    .button {
+  
+   border-radius: 10px;
+   padding: 0.5rem 1rem;
+   margin: 0;
+   color: #f2f2f2;
+   text-decoration: none;
+   border: 3px solid #59331d;
+ }
+    
+ nav li {
+   
+   font-size: 1.5rem;
+ }   
+    nav .logo img {
+   max-width: 200px;
+ }
+ }
+ 
+@media only screen and (min-width: 649px) and (max-width: 1032px) {
+  .main {
+    
+    padding: 0px 20px 30px 40px;
+    
+  }
+  
+    figure {
+   margin-top: 130px;
+   
+     margin-right: 10px;
+      padding: 0auto;
+   display: flex;
+ background: none;
+      flex-basis: 15%;
+  
+ } 
+   nav .logo img {
+   max-width: 200px;
+    
+ }
+  
+  article {
+    flex-basis: 170%;
+  }
+  
+   figcaption {
+   
+      display: none;
+ }
+    
+  .main {
+ display: flex;
+  flex-flow: row;
+   justify-content: right;
+   text-align: left;
+    margin-left: auto;
+   margin-right: auto;
+    }
+
+ figure img {
+  border-radius: 10px;
+
+
+  max-width: 300px;
+   margin-left: 10px;
+   height: 500px;
+   
+  }
+  
+  
+ 
+  
+  
+  
+  nav ul {
+ 
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+  
+  
+  
+  nav li {
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.7rem;
+}
+  body {
+  background-color: #082B59;
+  margin: rem 2rem 1rem 3rem;
+  padding: 10px 10px 10px 10px;
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+    font-size: 1.5rem;
+    
+    
+}
+ 
+  
+  
+} 
+
+
+@media only screen and  (min-width: 1033px) {
+   
+ 
+ nav ul { padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: right; 
+     align-items: flex-end;
+ 
+}
+    nav li {
+  margin: 1rem 5rem 1rem 4rem;
+      padding: auto;
+  font-size: 2rem;
+      
+}
+  nav .logo {
+
+  
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: left; 
+   
+    
+ 
+}  
+ nav .logo img { 
+  max-width: 350px;
+
+   flex-basis: 100%;
+   }
+  
+  h1 {
+  font-size: 3rem;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+  
+body {
+ 
+  margin: rem 2rem rem 3rem;
+  font-size: 1.5rem;
+  
+}
+  
+  .main {
+  max-width: 1500px;
+ 
+}
+  figcaption {
+  display: none;
+}
+  
+  figure {
+  
+  flex-basis: 45%;
+  background: none;
+  border-radius: 10px;
+    padding-top: 9rem;
+    
+}
+  
+  figure img { 
+  border-radius: 10px;
+
+ 
+  width: 1300px;
+  height: auto;
+  
+  }
+  
+  .logo {
+   margin-left: 40px;
+   margin-bottom: 0rem;
+  flex-basis: 100%;
+    margin-top: 20px;
+}
+  
+  article {
+    flex-basis: 45%
+    
+      
+  }
+  
+}
