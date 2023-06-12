@@ -14,9 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Lato&family=Libre+Baskerville&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Lato&family=Libre+Baskerville&family=Poppins:ital,wght@0,700;1,700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill"#ffffff" d="M96 64c0-17.7 14.3-32 32-32H448h64c70.7 0 128 57.3 128 128s-57.3 128-128 128H480c0 53-43 96-96 96H192c-53 0-96-43-96-96V64zM480 224h32c35.3 0 64-28.7 64-64s-28.7-64-64-64H480V224zM32 416H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -26,13 +24,14 @@
         <nav>
           <ul>
             <li class="logo"><a href="./index.html"><img src="gulp_roast_img/gulp-logo-light.png" alt="Gulp Roast. Click for home." /></a></li>
-            <li><a href= "./index.html" height="1em" viewBox="0 0 640 512" class="icon">About</a></li>
+            <li><a href= "./index.html" ><span aria-hidden="true" class="fa-solid fa-mug-saucer"></span> About</a></li>
             <li><a href="./product.html"><span aria-hidden="true" class="fa-solid fa-fire-flame-curved"></span> Products</a></li>
             <li><a href="./contact.html"><span aria-hidden="true" class="fa-solid fa-phone"></span> Contact</a></li>
           </ul>
         </nav>
       </header>
       <div class="main-bkgd">
+       
         <section class="main">
           <article>
             <h1>About Us</h1>
@@ -42,10 +41,26 @@
       
             <a class="button" href="./contact.html">Contact Us</a>
           </article>
-          <figure>
+      <!-- <figure>
             <img src="gulp_roast_img/gulp-pouring-coffee-horizontal.jpg" alt="Making pour-over coffee at our shop." />
             <figcaption>Our pour-over coffee is known for its freshness and amazing taste.</figcaption>
-          </figure>
+          
+          </figure>--> 
+           
+          
+          
+          
+          
+       
+          <picture>
+            
+            <source srcset="gulp_roast_img/gulp-pouring-coffee-horizontal" media="(min-width: 550px) and (max-width: 650px" />
+            <source srcset="gulp_roast_img/gulp-pouring-coffee-vertical.jpg" media="(min-width: 649px) and (max-width: 1032px)" />
+            <source srcset="gulp_roast_img/gulp-pouring-coffee-horizontal.jpg" media="(min-width: 1033px)" />
+            
+            <img src="gulp_roast_img/gulp-pouring-coffee-horizontal-sm.jpg" alt="coffee" /> 
+              </picture>
+          
         </section>
       </div>
       <footer>
